@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;  /* Clean and modern font */
+    margin: 0;  /* Remove default body margins */
+    padding: 2em;  /* Add some breathing room */
+    background-color: #f5f5f5;  /* Light gray background */
+    display: flex;  /* Arrange elements horizontally */
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;  /* Center elements horizontally */
+    justify-content: center;  /* Center elements vertically */
+    min-height: 100vh;  /* Set minimum body height for full viewport */
+  }
+  
+  h1 {
+    font-size: 2em;  /* Increase heading size */
+    margin: 1em 0;  /* Add space above and below headings */
+    text-align: center;  /* Center heading text */
+  }
+  
+  .option {
+    background-color: #4CAF50;  /* Green button color */
+    border: none;  /* Remove default button border */
+    color: white;  /* White button text */
+    padding: 10px 20px;  /* Add padding for better look */
+    text-align: center;  /* Center button text */
+    text-decoration: none;  /* Remove underline */
+    display: inline-block;  /* Display buttons inline */
+    margin: 0.5em;  /* Add space between buttons */
+    font-size: 1em;  /* Set button text size */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+    border-radius: 5px;  /* Add rounded corners */
+  }
+  
+  .option:hover {
+    background-color: #3e8e41;  /* Darken button on hover */
+  }
+  
+  #next,
+  #submit {
+    background-color: #3f51b5;  /* Blue button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 1em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  #next:hover,
+  #submit:hover {
+    background-color: #28377d;  /* Darken button on hover */
+  }
+  
+  #score {
+    font-size: 1.5em;  /* Increase score text size */
+  }
+  
